@@ -11,8 +11,8 @@ See sample.html for details.
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[Apache 2.0](https://github.com/nari-z/web_screen_saver/blob/master/LICENSE)
 
 ## Author
 
-[tcnksm](https://github.com/tcnksm)
+[nari-z](https://github.com/nari-z)
