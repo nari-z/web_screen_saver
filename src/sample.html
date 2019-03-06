@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Screen Saver Sample.</title>
+<script src="screen_saver.js"></script>
+</head>
+<body>
+    <h1>Screen Saver Sample.</h1>
+    <script>
+        // create screen saver object.
+        var screen_saver = new ScreenSaver();
+
+        // set screen saver.
+        var timeout_ms = 5000;
+        screen_saver.Attach(timeout_ms);
+
+        // remove screen saver.
+        document.addEventListener('mousedown', () => {screen_saver.Detach();}, false);
+    </script>
+</body>
+</html>
